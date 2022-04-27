@@ -1,0 +1,259 @@
+/* Small devices (landscape phones) */
+/* จะทำงานก็ต่อเมื่อหน้าจอมีขนาดน้อยกว่า 576px */
+@media only screen and (max-width: 576px) {
+
+  img {
+    width: 100%;
+  }
+
+  .section {
+    padding-bottom: 40px !important;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .home_content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .home_content .home_title {
+    font-size: 40px;
+  }
+
+  .movie-slick {
+    padding-right: 10px;
+  }
+
+  .movie-slick .movie_content img {
+    width: 100%;
+  }
+
+  .movie-list_img img {
+    width: 100%;
+  }
+
+  .movie_content .movie_rate {
+    font-size: 11px;
+  }
+
+  .movie-list_tab .tablinks {
+    font-size: 16px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .movie-list_content .movie-list_cate {
+    display: block;
+    padding-top: 16px;
+  }
+
+  .movie-list_content .movie-list_view {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .movie-list_content .movie-list_runtime {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .section-movie-list {
+    padding-top: 0 !important;
+  }
+
+  .txt-right {
+    text-align: left;
+  }
+
+  .coming_video-content .coming_play {
+    left: 55%;
+  }
+
+  .slick-next:before {
+    font-size: 15px !important;
+  }
+
+  .slick-next {
+    top: 25% !important;
+  }
+
+  .slick-next {
+    right: 3px !important;
+  }
+
+  .movie_content .movie_name {
+    font-size: 12px;
+  }
+
+  .movie_content .movie_date {
+    font-size: 10px;
+  }
+
+  .section-support {
+    min-height: 0 !important;
+  }
+
+  .section-support-2 {
+    padding-top: 25% !important;
+  }
+
+  .section-footer .footer_content {
+    margin-bottom: 20px;
+  }
+
+  .section-footer h3 {
+    color: #ec7532;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .section-footer a {
+    font-size: 15px;
+  }
+
+  .search_content .input-data i {
+    right: 3% !important;
+  }
+
+  .section-search-home h1,
+  .section-contact-home h1 {
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 3;
+    color: #ffffff;
+  }
+
+  .row-col {
+    text-align: center;
+  }
+
+  .location_icon span {
+    margin: 30px auto 25px auto;
+  }
+
+  .location-icon {
+    text-align: center;
+  }
+
+  .col-sm-push-1 {
+    padding: 0 !important;
+  }
+
+  .col-sm-push-1 .col {
+    display: block;
+  }
+}
+
+/* Medium devices (tablets) */
+/* จะทำงานก็ต่อเมื่อหน้าจอมีขนาดมากกว่า 768px และจะสิ้นสุดการทำงานเมื่อหน้าจอมีขนาดมากกว่า 1200px */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .col-sm-2 {
+    width: 16.66%;
+  }
+
+  .col-sm-10 {
+    width: 83.33%;
+  }
+
+  .col-2 {
+    width: 25%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 75%;
+  }
+
+  .coming_content .coming_desc {
+    padding-right: 70px;
+  }
+
+  .section-movie-list {
+    padding-top: 0 !important;
+  }
+
+  .movie-list_content {
+    padding-left: 25px;
+  }
+
+  .movie-list_content .movie-list_button {
+    margin-bottom: 25px !important;
+  }
+
+  .coming_content {
+    padding-top: 60px;
+  }
+
+  .coming_video-content .coming_play {
+    top: 50%;
+    left: 55%;
+  }
+
+  .coming_video-content {
+    position: relative;
+    padding-top: 60px;
+  }
+
+  .slick-next {
+    right: 17px !important;
+  }
+
+  .section-support-2 {
+    padding-top: 10% !important;
+  }
+
+  .location_text {
+    padding-left: 60px;
+  }
+}
+
+/* จะทำงานก็ต่อเมื่อหน้าจอมีขนาดมากกว่า 768px และจะสิ้นสุดการทำงานเมื่อหน้าจอมีขนาดมากกว่า 1200px */
+@media only screen and (min-width: 1200px) {
+  .section-support::before {
+    content: "";
+    width: 70%;
+    height: 100px;
+    position: absolute;
+    top: -48px;
+    left: 0;
+    background: #101010;
+    transform: skewY(5deg);
+  }
+
+  .section-support::after {
+    content: "";
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    top: -46px;
+    right: 0;
+    background: #101010;
+    transform: skewY(-11deg);
+  }
+}
